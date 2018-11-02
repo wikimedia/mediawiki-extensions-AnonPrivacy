@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"anonprivacy-desc": "{{desc|name=AnonPrivacy|url=https://www.mediawiki.org/wiki/Extension:AnonPrivacy}}",
+	"anonprivacy-anon": "What to use instead of the IP.",
+	"right-anonprivacy": "{{doc-right|anonprivacy}}"
+}

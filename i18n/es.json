@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"anonprivacy-desc": "Esconde los IPs de los usuarios anónimos a todos menos los administradores.",
+	"anonprivacy-anon": "Anónimo",
+	"right-anonprivacy": "Ver IPs en los cambios recientes, historial de las páginas, etc."
+}

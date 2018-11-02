@@ -1,0 +1,33 @@
+{
+	"name": "AnonPrivacy",
+	"version": "1.0",
+	"author": "[http://mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
+	"url": "https://www.mediawiki.org/wiki/Extension:AnonPrivacy",
+	"descriptionmsg": "anonprivacy-desc",
+	"license-name": "GPL-3.0",
+	"type": "other",
+	"MessagesDirs": {
+		"AnonPrivacy": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"AnonPrivacy": "AnonPrivacy.php"
+	},
+	"AvailableRights": [
+		"anonprivacy"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"anonprivacy": true
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "AnonPrivacy"
+	},
+	"Hooks": {
+		"HtmlPageLinkRendererEnd": "AnonPrivacy::onHtmlPageLinkRendererEnd"
+	},
+	"manifest_version": 1
+}
