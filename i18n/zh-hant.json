@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"anonprivacy-desc": "除了管理員以外，向其他人隱藏匿名使用者的 IP。",
+	"anonprivacy-anon": "匿名",
+	"right-anonprivacy": "在近期變更、頁面歷史，等等其它查看 IP。"
+}

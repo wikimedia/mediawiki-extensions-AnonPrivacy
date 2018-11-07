@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"anonprivacy-desc": "Esconde os IP dos utilizadores anónimos de todos menos dos administradores.",
+	"anonprivacy-anon": "Anónimo",
+	"right-anonprivacy": "Ver endereços IP nas mudanças recentes, historial das páginas, etc."
+}

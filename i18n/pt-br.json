@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"anonprivacy-desc": "Oculta os IPs de usuários anônimos para todos, exceto para administradores.",
+	"anonprivacy-anon": "Anônimo",
+	"right-anonprivacy": "Ver endereços IP nas mudanças recentes, historial das páginas, etc."
+}

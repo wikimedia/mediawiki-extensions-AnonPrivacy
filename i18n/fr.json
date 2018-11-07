@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"anonprivacy-desc": "Masque les adresses IP des utilisateurs anonymes à tout le monde sauf aux administrateurs.",
+	"anonprivacy-anon": "Anonyme",
+	"right-anonprivacy": "Voir les adresses IP dans les modifications récentes, les historiques de page, etc."
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"anonprivacy-desc": "Versteckt die IP-Adressen von anonymen Benutzern für jeden außer Administratoren",
+	"anonprivacy-anon": "Anonym",
+	"right-anonprivacy": "IP-Adressen in den Letzten Änderungen, Versionsgeschichten etc. ansehen"
+}

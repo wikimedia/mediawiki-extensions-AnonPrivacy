@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"anonprivacy-desc": "Nasconde gli IP degli utenti anonimi a tutti tranne gli amministratori.",
+	"anonprivacy-anon": "Anonimo"
+}

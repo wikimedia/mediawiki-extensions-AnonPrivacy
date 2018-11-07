@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"anonprivacy-desc": "Skjuler IP-adresserne på anonyme brugere for alle andre end administratorer.",
+	"anonprivacy-anon": "Anonym",
+	"right-anonprivacy": "Se IP-adresserne i seneste ændringer, sidehistorikker, osv."
+}
