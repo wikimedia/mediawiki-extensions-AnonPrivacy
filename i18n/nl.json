@@ -4,7 +4,7 @@
 			"Mainframe98"
 		]
 	},
-	"anonprivacy-desc": "Verbergt de IP-adressen van anonieme gebruikers voor iedereen behalve adminis.",
+	"anonprivacy-desc": "Verbergt de IP-adressen van anonieme gebruikers voor iedereen behalve administrators.",
 	"anonprivacy-anon": "Anoniem",
 	"right-anonprivacy": "IP-adressen kunnen zien in recente wijzigingen, de pagina geschiedenis, etc."
 }
