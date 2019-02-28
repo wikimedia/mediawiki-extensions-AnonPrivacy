@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"GoForceX"
+			"GoForceX",
+			"WQL"
 		]
 	},
+	"anonprivacy-desc": "向除管理员外的用户隐藏匿名用户的IP地址。",
 	"anonprivacy-anon": "匿名"
 }
