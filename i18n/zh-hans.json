@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"GoForceX",
-			"WQL"
+			"WQL",
+			"佛壁灯"
 		]
 	},
 	"anonprivacy-desc": "向除管理员外的用户隐藏匿名用户的IP地址。",
-	"anonprivacy-anon": "匿名"
+	"anonprivacy-anon": "匿名",
+	"right-anonprivacy": "查看最近更改、页面历史等等中的 IP 地址用户。"
 }
