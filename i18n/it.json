@@ -5,5 +5,6 @@
 		]
 	},
 	"anonprivacy-desc": "Nasconde gli IP degli utenti anonimi a tutti tranne gli amministratori.",
-	"anonprivacy-anon": "Anonimo"
+	"anonprivacy-anon": "Anonimo",
+	"right-anonprivacy": "Visualizza gli IP nelle ultime modifiche, cronologia delle pagine, ecc."
 }
