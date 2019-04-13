@@ -6,5 +6,6 @@
 	},
 	"anonprivacy-desc": "Hides the IPs of anonymous users to everyone but admins.",
 	"anonprivacy-anon": "Anonymous",
+	"action-anonprivacy": "see IPs in the recent changes, page histories, etc.",
 	"right-anonprivacy": "See IPs in the recent changes, page histories, etc."
 }
