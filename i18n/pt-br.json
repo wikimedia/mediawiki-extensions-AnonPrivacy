@@ -6,5 +6,6 @@
 	},
 	"anonprivacy-desc": "Oculta os IPs de usuários anônimos para todos, exceto para administradores.",
 	"anonprivacy-anon": "Anônimo",
+	"action-anonprivacy": "veja os IPs nas mudanças recentes, nos históricos de páginas, etc.",
 	"right-anonprivacy": "Ver endereços IP nas mudanças recentes, historial das páginas, etc."
 }
