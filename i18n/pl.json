@@ -6,5 +6,6 @@
 	},
 	"anonprivacy-desc": "Ukrywa adresy IP niezalogowanych użytkowników dla wszystkich poza administratorami",
 	"anonprivacy-anon": "Anonimowy użytkownik",
+	"action-anonprivacy": "podglądu adresów IP w ostatnich zmianach, historii i autorach, itd.",
 	"right-anonprivacy": "Podgląd adresów IP w ostatnich zmianach, historiach stron, itd."
 }
