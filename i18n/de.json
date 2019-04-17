@@ -6,5 +6,6 @@
 	},
 	"anonprivacy-desc": "Versteckt die IP-Adressen von anonymen Benutzern für jeden außer Administratoren",
 	"anonprivacy-anon": "Anonym",
+	"action-anonprivacy": "IP-Adressen in den Letzten Änderungen, Versionsgeschichten etc. anzusehen",
 	"right-anonprivacy": "IP-Adressen in den Letzten Änderungen, Versionsgeschichten etc. ansehen"
 }

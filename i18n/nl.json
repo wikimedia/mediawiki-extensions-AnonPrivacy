@@ -6,5 +6,6 @@
 	},
 	"anonprivacy-desc": "Verbergt de IP-adressen van anonieme gebruikers voor iedereen behalve administrators.",
 	"anonprivacy-anon": "Anoniem",
+	"action-anonprivacy": "IP-adressen te kunnen zien in recente wijzigingen, de pagina geschiedenis, etc.",
 	"right-anonprivacy": "IP-adressen kunnen zien in recente wijzigingen, de pagina geschiedenis, etc."
 }

@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Pols12"
+			"Pols12",
+			"Wladek92"
 		]
 	},
 	"anonprivacy-desc": "Masque les adresses IP des utilisateurs anonymes à tout le monde sauf aux administrateurs.",
 	"anonprivacy-anon": "Anonyme",
-	"action-anonprivacy": "voir les IP dans les modifications récentes, les historiques de page, etc.",
+	"action-anonprivacy": "voir les adresses IP dans les modifications récentes, les historiques de page, etc.",
 	"right-anonprivacy": "Voir les adresses IP dans les modifications récentes, les historiques de page, etc."
 }
