@@ -8,5 +8,6 @@
 	},
 	"anonprivacy-desc": "向除管理员外的用户隐藏匿名用户的IP地址。",
 	"anonprivacy-anon": "匿名",
+	"action-anonprivacy": "查看近期更改、页面历史等特殊页面中的IP用户",
 	"right-anonprivacy": "查看最近更改、页面历史等等中的 IP 地址用户。"
 }
