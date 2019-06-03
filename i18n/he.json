@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"YaronSh"
+			"YaronSh",
+			"Steeve815"
 		]
 	},
-	"anonprivacy-anon": "אלמוני"
+	"anonprivacy-anon": "אלמוני",
+	"right-anonprivacy": "הבחנה בכתובות IP בדף השינויים האחרונים, גרסאות קודמות של דפים, וכו'"
 }
