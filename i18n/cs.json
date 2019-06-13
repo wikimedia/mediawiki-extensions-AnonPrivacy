@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Patriccck"
+			"Patriccck",
+			"Slepi"
 		]
 	},
-	"anonprivacy-anon": "Anonymní"
+	"anonprivacy-anon": "Anonymní",
+	"action-anonprivacy": "zobrazit IP adresy v posledních změnách, historiích stránek apod."
 }
