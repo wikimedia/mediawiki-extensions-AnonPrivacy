@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amirsara"
+			"Amirsara",
+			"FarsiNevis"
 		]
 	},
-	"anonprivacy-anon": "ناشناس"
+	"anonprivacy-desc": "آی‌پی کاربران ناشناس را برای همه غیر از مدیران پنهان می‌کند.",
+	"anonprivacy-anon": "ناشناس",
+	"action-anonprivacy": "آی‌پی‌ها را در تغییرات اخیر، تاریخچهٔ صفحه‌ها، و مانند آن‌ها مشاهده کنید.",
+	"right-anonprivacy": "آی‌پی‌ها را در تغییرات اخیر، تاریخچهٔ صفحه‌ها، و مانند آن‌ها مشاهده کنید."
 }

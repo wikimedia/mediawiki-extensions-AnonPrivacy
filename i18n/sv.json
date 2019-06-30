@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Mjälten"
 		]
 	},
+	"anonprivacy-desc": "Gömmer IP-adresser för anonyma användare, förutom administratörer.",
 	"anonprivacy-anon": "Anonym"
 }
