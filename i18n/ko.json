@@ -6,5 +6,6 @@
 	},
 	"anonprivacy-desc": "관리자를 제외한 모든 사용자에게 익명 사용자의 IP를 숨깁니다.",
 	"anonprivacy-anon": "익명",
+	"action-anonprivacy": "최근 바뀜, 문서 역사 등에서 IP를 볼",
 	"right-anonprivacy": "최근 바뀜, 문서 역사 등에서IP를 봅니다."
 }
