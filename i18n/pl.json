@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"anonprivacy-desc": "Ukrywa adresy IP niezalogowanych użytkowników dla wszystkich poza administratorami",
