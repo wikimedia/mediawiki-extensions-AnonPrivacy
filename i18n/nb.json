@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"anonprivacy-desc": "Skjuler IP-en til anonyme brukere for alle utenom administratorer.",
+	"anonprivacy-anon": "Anonym",
+	"action-anonprivacy": "se IP-er i siste endringer, sidehistorikk o.l.",
+	"right-anonprivacy": "Se IP-er i siste endringer, sidehistorikk o.l."
+}
