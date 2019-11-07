@@ -1,7 +1,7 @@
 {
 	"name": "AnonPrivacy",
-	"version": "1.0",
-	"author": "[https://mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
+	"version": "1.1",
+	"author": "[https://mediawiki.org/wiki/User:Sophivorus Sophivorus]",
 	"url": "https://www.mediawiki.org/wiki/Extension:AnonPrivacy",
 	"descriptionmsg": "anonprivacy-desc",
 	"license-name": "GPL-3.0",

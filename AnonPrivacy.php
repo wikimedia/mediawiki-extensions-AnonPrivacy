@@ -17,17 +17,21 @@ class AnonPrivacy {
 
 		// Check if we're dealing with a link to an anonymous user page
 		if ( strpos( $class, 'mw-anonuserlink' ) > -1 ) {
-			$ret = wfMessage( 'anonprivacy-anon' );
-			return false;
+			$privacypage = wfMessage( 'privacypage' )->plain();
+			$privacytitle = Title::newFromText( $privacypage );
+			$attribs['href'] = $privacytitle->getInternalURL();
+			$attribs['class'] = 'mw-userlink mw-anonuserlink';
+			$attribs['title'] = wfMessage( 'privacy' );
+			$text = wfMessage( 'anonprivacy-anon' );
 		}
 
 		// Check if we're dealing with a link to an anonymous user talk page
 		if ( strpos( $class, 'mw-usertoollinks' ) > -1 && $target->getNamespace() === NS_USER_TALK && IP::isIPAddress( $target->getText() ) ) {
 			$privacypage = wfMessage( 'privacypage' )->plain();
 			$privacytitle = Title::newFromText( $privacypage );
-			$attribs = [
-				'href' => $privacytitle->getInternalURL()
-			];
+			$attribs['href'] = $privacytitle->getInternalURL();
+			$attribs['class'] = 'mw-usertoollinks-talk';
+			$attribs['title'] = wfMessage( 'privacy' );
 			$text = wfMessage( 'privacy' );
 		}
 	}
