@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"anonprivacy-desc": "Anubre les IPs de los usuarios anónimos a toos menos a los alministradores.",
+	"anonprivacy-anon": "Anónimu",
+	"action-anonprivacy": "ver IPs nos cambeos recién, historiales de páxines, etc.",
+	"right-anonprivacy": "Ver IPs nos cambeos recién, historiales de páxines, etc."
+}
