@@ -3,7 +3,6 @@
 class AnonPrivacy {
 
 	public static function onHtmlPageLinkRendererEnd( $linkRenderer, $target, $isKnown, &$text, &$attribs, &$ret ) {
-
 		global $wgUser;
 		if ( in_array( 'anonprivacy', $wgUser->getRights() ) ) {
 			return true;
