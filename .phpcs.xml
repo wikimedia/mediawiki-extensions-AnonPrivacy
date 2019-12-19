@@ -3,7 +3,6 @@
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
 		<exclude name="Generic.Files.LineLength.TooLong" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
-		<exclude name="PSR2.Files.EndFileNewline.NoneFound" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>
