@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Dansita"
 		]
 	},
 	"anonprivacy-desc": "Nasconde gli IP degli utenti anonimi a tutti tranne gli amministratori.",
 	"anonprivacy-anon": "Anonimo",
+	"action-anonprivacy": "Visualizza gli IP delle ultime modifiche, cronologia delle pagine, ecc.",
 	"right-anonprivacy": "Visualizza gli IP nelle ultime modifiche, cronologia delle pagine, ecc."
 }
