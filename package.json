@@ -11,7 +11,6 @@
 		"grunt-eslint": "22.0.0",
 		"grunt-jsonlint": "2.0.0",
 		"grunt-stylelint": "0.13.0",
-		"stylelint": "11.1.1",
 		"stylelint-config-wikimedia": "0.8.0"
 	}
 }
