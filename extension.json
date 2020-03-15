@@ -11,6 +11,9 @@
 			"i18n"
 		]
 	},
+	"requires": {
+		"MediaWiki": ">=1.35.0"
+	},
 	"AutoloadClasses": {
 		"AnonPrivacy": "AnonPrivacy.php"
 	},

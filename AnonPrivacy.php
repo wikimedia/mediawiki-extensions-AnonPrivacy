@@ -1,5 +1,7 @@
 <?php
 
+use Wikimedia\IPUtils;
+
 class AnonPrivacy {
 
 	public static function onHtmlPageLinkRendererEnd( $linkRenderer, $target, $isKnown, &$text, &$attribs, &$ret ) {
@@ -27,7 +29,7 @@ class AnonPrivacy {
 		}
 
 		// Check if we're dealing with a link to an anonymous user talk page
-		if ( strpos( $class, 'mw-usertoollinks' ) > -1 && $target->getNamespace() === NS_USER_TALK && IP::isIPAddress( $target->getText() ) ) {
+		if ( strpos( $class, 'mw-usertoollinks' ) > -1 && $target->getNamespace() === NS_USER_TALK && IPUtils::isIPAddress( $target->getText() ) ) {
 			$privacypage = wfMessage( 'privacypage' )->plain();
 			$privacytitle = Title::newFromText( $privacypage );
 			$attribs['href'] = $privacytitle->getInternalURL();
