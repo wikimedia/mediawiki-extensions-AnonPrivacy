@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Aefgh39622"
 		]
 	},
-	"anonprivacy-anon": "匿名"
+	"anonprivacy-desc": "管理者以外のすべてのユーザーに対して匿名ユーザーのIPを非表示にします。",
+	"anonprivacy-anon": "匿名",
+	"action-anonprivacy": "最近の変更、ページ履歴などでIPを参照する",
+	"right-anonprivacy": "最近の変更、ページ履歴などでIPを参照する"
 }
