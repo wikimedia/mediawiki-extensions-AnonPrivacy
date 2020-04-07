@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki",
-			"Aefgh39622"
+			"Aefgh39622",
+			"Shirayuki"
 		]
 	},
 	"anonprivacy-desc": "管理者以外のすべてのユーザーに対して匿名ユーザーのIPを非表示にします。",

@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vlad5250",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"anonprivacy-desc": "Ховає IP-адреси анонімних користувачів від всіх, окрім адміністраторів.",
