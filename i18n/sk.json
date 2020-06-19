@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"TomášPolonec"
+		]
+	},
+	"anonprivacy-desc": "Skryť IP adresy anonymných používateľov pred všetkými okrem administrátorov.",
+	"anonprivacy-anon": "Anonymný",
+	"action-anonprivacy": "zobraziť IP adresy v posledných úpravách, histórii stránok, atď.",
+	"right-anonprivacy": "Zobraziť IP adresy v posledných úpravách, histórii stránok, atď."
+}
