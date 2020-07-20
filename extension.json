@@ -32,5 +32,5 @@
 	"Hooks": {
 		"HtmlPageLinkRendererEnd": "AnonPrivacy::onHtmlPageLinkRendererEnd"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
