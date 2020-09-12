@@ -4,6 +4,16 @@ use Wikimedia\IPUtils;
 
 class AnonPrivacy {
 
+	/**
+	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/HtmlPageLinkRendererEnd
+	 * @param LinkRenderer $linkRenderer
+	 * @param LinkTarget $target
+	 * @param bool $isKnown
+	 * @param string &$text
+	 * @param string[] &$attribs
+	 * @param string &$ret
+	 * @return bool
+	 */
 	public static function onHtmlPageLinkRendererEnd( $linkRenderer, $target, $isKnown, &$text, &$attribs, &$ret ) {
 		if ( in_array(
 			'anonprivacy',
