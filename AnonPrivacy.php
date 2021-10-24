@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
 use Wikimedia\IPUtils;
 
 class AnonPrivacy {
@@ -17,7 +18,8 @@ class AnonPrivacy {
 	public static function onHtmlPageLinkRendererEnd( $linkRenderer, $target, $isKnown, &$text, &$attribs, &$ret ) {
 		if ( in_array(
 			'anonprivacy',
-			RequestContext::getMain()->getUser()->getRights()
+			MediaWikiServices::getInstance()->getPermissionManager()
+				->getUserPermissions( RequestContext::getMain()->getUser() )
 		) ) {
 			return true;
 		}
