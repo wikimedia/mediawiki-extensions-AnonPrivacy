@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Veikk0.ma"
 		]
 	},
-	"anonprivacy-anon": "Anonyymi"
+	"anonprivacy-desc": "Piilottaa anonyymien käyttäjien IP-osoitteet muilta kuin ylläpitäjiltä.",
+	"anonprivacy-anon": "Anonyymi",
+	"action-anonprivacy": "nähdä IP-osoitteita tuoreissa muutoksissa, muutoshistorioissa, jne.",
+	"right-anonprivacy": "Nähdä IP-osoitteet tuoreissa muutoksissa, muutoshistorioissa, jne."
 }
