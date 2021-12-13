@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"anonprivacy-desc": "Celar le adresses IP de usatores anonyme a totes salvo administratores.",
+	"anonprivacy-anon": "Anonyme",
+	"action-anonprivacy": "vider adresses IP in le modificationes recente, historias de paginas, etc.",
+	"right-anonprivacy": "Vider adresses IP in le modificationes recente, historias de paginas, etc."
+}

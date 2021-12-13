@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Palladin911"
+			"Palladin911",
+			"Akmaie Ajam"
 		]
 	},
-	"anonprivacy-anon": "Anonim"
+	"anonprivacy-desc": "Menyembunyikan IP akun tidak teregistrasi untuk semua pengguna, kecuali pengurus.",
+	"anonprivacy-anon": "Anonim",
+	"action-anonprivacy": "lihat alamat IP dalam halaman perubahan terbaru, sejarah artikel, dll.",
+	"right-anonprivacy": "Lihat alamat IP dalam halaman perubahan terbaru, sejarah artikel, dll."
 }
