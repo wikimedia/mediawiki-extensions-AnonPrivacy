@@ -3,11 +3,12 @@
 		"authors": [
 			"Aefgh39622",
 			"Afaz",
+			"Lakejason0",
 			"Shirayuki"
 		]
 	},
 	"anonprivacy-desc": "管理者以外のすべての利用者に対して匿名利用者のIPを非表示にします。",
 	"anonprivacy-anon": "匿名",
-	"action-anonprivacy": "最近の変更、ページ履歴などでのIPの参照",
+	"action-anonprivacy": "最近の更新、ページ履歴などでのIPの参照",
 	"right-anonprivacy": "最近の変更、ページ履歴などでIPを参照"
 }
