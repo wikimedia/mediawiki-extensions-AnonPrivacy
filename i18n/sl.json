@@ -4,5 +4,8 @@
 			"Eleassar"
 		]
 	},
-	"anonprivacy-anon": "Anonimni"
+	"anonprivacy-desc": "IP-je anonimnih uporabnikov skrije vsem, razen administratorjem.",
+	"anonprivacy-anon": "Anonimni",
+	"action-anonprivacy": "ogled IP-jev v zadnjih spremembah, zgodovini strani idr.",
+	"right-anonprivacy": "Ogled IP-jev v zadnjih spremembah, zgodovini strani idr."
 }
