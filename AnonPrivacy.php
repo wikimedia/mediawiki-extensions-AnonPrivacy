@@ -1,6 +1,5 @@
 <?php
 
-use MediaWiki\MediaWikiServices;
 use Wikimedia\IPUtils;
 
 class AnonPrivacy {
@@ -16,11 +15,13 @@ class AnonPrivacy {
 	 * @return bool
 	 */
 	public static function onHtmlPageLinkRendererEnd( $linkRenderer, $target, $isKnown, &$text, &$attribs, &$ret ) {
-		if ( in_array(
-			'anonprivacy',
-			MediaWikiServices::getInstance()->getPermissionManager()
-				->getUserPermissions( RequestContext::getMain()->getUser() )
-		) ) {
+		// MW_NO_SESSION happens if we are called from load.php, in which
+		// case we can not check user permissions, so fail safe. This is known
+		// to happen with VisualEditor.
+		if (
+			!defined( 'MW_NO_SESSION' ) &&
+			RequestContext::getMain()->getUser()->isAllowed( 'anonprivacy' )
+		) {
 			return true;
 		}
 
@@ -36,8 +37,8 @@ class AnonPrivacy {
 			$privacytitle = Title::newFromText( $privacypage );
 			$attribs['href'] = $privacytitle->getInternalURL();
 			$attribs['class'] = 'mw-userlink mw-anonuserlink';
-			$attribs['title'] = wfMessage( 'privacy' );
-			$text = wfMessage( 'anonprivacy-anon' );
+			$attribs['title'] = wfMessage( 'privacy' )->text();
+			$text = wfMessage( 'anonprivacy-anon' )->text();
 		}
 
 		// Check if we're dealing with a link to an anonymous user talk page
@@ -46,8 +47,8 @@ class AnonPrivacy {
 			$privacytitle = Title::newFromText( $privacypage );
 			$attribs['href'] = $privacytitle->getInternalURL();
 			$attribs['class'] = 'mw-usertoollinks-talk';
-			$attribs['title'] = wfMessage( 'privacy' );
-			$text = wfMessage( 'privacy' );
+			$attribs['title'] = wfMessage( 'privacy' )->text();
+			$text = wfMessage( 'privacy' )->text();
 		}
 	}
 }
