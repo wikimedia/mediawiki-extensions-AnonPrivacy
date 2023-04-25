@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"anonprivacy-desc": "Slepia anoniminių naudotojų IP adresus visiems, išskyrus administratorius.",
+	"anonprivacy-anon": "Anonimas",
+	"action-anonprivacy": "matyti IP adresus naujausiuose pakeitimuose, puslapių istorijose ir kt.",
+	"right-anonprivacy": "Matyti IP adresus naujausiuose pakeitimuose, puslapių istorijose ir kt."
+}
