@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"anonprivacy-desc": "Skriva IP adrese anonimnih korisnika svima osim administratorima.",
+	"anonprivacy-anon": "Anoniman"
+}
