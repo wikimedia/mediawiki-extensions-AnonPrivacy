@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nvdtn19",
 			"Phjtieudoc"
 		]
 	},
-	"anonprivacy-anon": "Vô danh",
+	"anonprivacy-anon": "Chưa đăng nhập",
 	"action-anonprivacy": "xem IP trong thay đổi gần đây, lịch sử trang, v.v.",
 	"right-anonprivacy": "Xem IP trong thay đổi gần đây, lịch sử trang, v.v."
 }
